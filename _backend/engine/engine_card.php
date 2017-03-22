@@ -1,3 +1,3 @@
 <?php 
-	echo "examplead";
+	echo "example";
  ?>
