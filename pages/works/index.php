@@ -16,10 +16,10 @@
 <?php
 require_once "../../_backend/template/header.php"
 ?>
-<div class="background">
-	
-</div>
-
+<div class="background"></div>
+<?php 
+	require_once "../../_backend/engine/engine_card.php"
+ ?>
 <?php
 require_once "../../_backend/template/footer.php"
 ?>
