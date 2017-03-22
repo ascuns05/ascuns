@@ -3,7 +3,7 @@ function menu() {
 	echo '
 	<a href="/pages/works"><p>Мои работы</p></a>
 	<a href=""><p>Музыка</p></a>
-	<a href=""><p>Обо мне</p></a>
+	<a href=""><p>example</p></a>
 	';
 }
 ?>

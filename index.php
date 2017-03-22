@@ -1,20 +1,3 @@
-<?php 
-	// functions
-		function card($head, $text) {
-			echo '
-		<div class="card">
-			<h3>'.$head.'</h3>
-			<p>'.$text.'</p>
-			<img src="" alt="">
-		</div>';
-		 }
-	
- ?>	
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -41,18 +24,9 @@ require_once "_backend/template/header.php";
 		</div>
 
 	<div class="content">
-		<div class="cards">
-		<?php 
-		card(
-			"ДИЗАЙН", 
-			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quam! Voluptate, corporis suscipit repellat pariatur deserunt tempora quas quia nulla dolores praesentium rerum amet cupiditate itaque sed repellendus dolor odit?"
-			);
-		card(
-			"СОЗДАНИЕ САЙТОВ", 
-			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic voluptatem, quae veritatis in ducimus dolore atque ad perspiciatis, debitis eaque deserunt reprehenderit amet? Possimus dolorum enim architecto in porro vel!"
-			);
-		 ?>
-		 </div>
+		<div class="aboutHero">
+			
+		</div>
 	</div>
 <?php
 require_once "_backend/template/footer.php";
