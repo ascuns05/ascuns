@@ -46,7 +46,7 @@
 	display: grid;
 }
 /*about hero*/
-.block {
+.blockHead {
 	margin: 100px 0 0;
 	background-color: #fff;
 	height: 150px;
@@ -61,9 +61,12 @@
 	font-size: 40px;
 	font-weight: 100;
 }
-.block1 {
+.initalBlock {
 	z-index: 0;
 	margin-top: -67px; 
 	height: 67px;
+	background: #fff;
+}
+.description {
 	background: #fff;
 }

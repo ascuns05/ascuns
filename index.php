@@ -1,10 +1,10 @@
 <?php 
-function block($element) {
+function standartBlock($element) {
 	echo '
-		<div class="block">
+		<div class="blockHead">
 			'.$element.'	
 		</div>
-		<div class="block1">
+		<div class="initalBlock">
 		</div>
 	';
  }
@@ -43,9 +43,13 @@ require_once "_backend/template/header.php";
 
 	<div class="content">
 		<?php 
-		block("<h1>Колесников Егор</h1>")
+		standartBlock("<h1>Колесников Егор</h1>");
 		 ?>
-	
+	<div class="description">
+		<p>
+			
+		</p>
+	</div>
 	</div>
 <?php
 require_once "_backend/template/footer.php";
