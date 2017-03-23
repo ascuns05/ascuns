@@ -11,6 +11,7 @@
 	<link rel="icon" typre="image/png" href="img/logo.png">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="/libs/paralax.js"></script>
 	<script src="libs/background.js" type="text/javascript"></script>
 </head>
 <body>
@@ -24,8 +25,10 @@ require_once "_backend/template/header.php";
 		</div>
 
 	<div class="content">
-		<div class="aboutHero">
-			
+		<div class="block">
+			<div class="aboutHero">
+				<h1>Колесников Егор</h1>
+			</div>
 		</div>
 	</div>
 <?php

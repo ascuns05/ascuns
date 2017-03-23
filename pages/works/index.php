@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/work.css">
 	<script type="text/javascript" src="/libs/jquery.js"></script>
 	<script type="text/javascript" src="/js/main.js"></script>
+	<script type="text/javascript" src="/libs/paralax.js"></script>
 	<title>Мои работы</title>
 </head>
 <body>
