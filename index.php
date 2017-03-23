@@ -1,3 +1,20 @@
+<?php 
+function block($element) {
+	echo '
+		<div class="block">
+			'.$element.'	
+		</div>
+		<div class="block1">
+		</div>
+	';
+ }
+ ?>
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -25,11 +42,10 @@ require_once "_backend/template/header.php";
 		</div>
 
 	<div class="content">
-		<div class="block">
-			<div class="aboutHero">
-				<h1>Колесников Егор</h1>
-			</div>
-		</div>
+		<?php 
+		block("<h1>Колесников Егор</h1>")
+		 ?>
+	
 	</div>
 <?php
 require_once "_backend/template/footer.php";
