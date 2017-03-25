@@ -1,0 +1,46 @@
+/*footer*/
+.footer {
+	background: #333;
+	height: 130px;
+}
+.social {
+	width: 100%;
+	text-align: center;
+	padding-top: 35px;
+}
+.footer-style {
+	font-family: Awesome;
+	text-decoration: none;
+    font-size: 21px;
+    color: #333;
+    line-height: 36px;
+    text-align: center;
+    width: 36px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 50px;
+    background: #fff;
+}
+@media only screen and (max-width: 350px) {
+.footer-style {
+		margin: 10px 5px 0;  
+	}
+}
+
+
+
+.instagram:before {
+    content: "\f16d";
+}
+.github:before {
+    content: "\f09b";
+}
+.vk:before {
+    content: "\f189";
+}
+.love:before {
+    content: "\f004";
+}
+.login:before {
+    content: "\f126";
+}

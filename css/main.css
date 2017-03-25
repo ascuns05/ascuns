@@ -1,0 +1,43 @@
+/*default settings*/
+html, body {
+	margin: 0;
+	background: #fff;
+	color: #333;
+	font-family: Open Sans;
+}
+
+h1 {
+	font-family: Raleway;
+	font-weight: 100;
+	text-align: center;
+}
+
+.main p {
+	font-family: Open-Sans;
+	margin: auto;
+	max-width: 600px;
+}
+@media only screen and (max-width: 320px) {
+	p {
+		margin: 0 30px 0;
+	}
+}
+.right {
+	float: right;
+}
+a {
+	text-decoration: none;
+}
+/*main settings*/
+.main {
+	background: #fff;
+	height: auto;
+}
+.hero {
+	background-image: url(../img/hero.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: right;
+    background-position-y: bottom;
+	height: 400px;
+}
