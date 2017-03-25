@@ -2,6 +2,8 @@
 .footer {
 	background: #333;
 	height: 130px;
+	width: 100%;
+	display: inline-block;
 }
 .social {
 	width: 100%;

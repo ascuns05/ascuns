@@ -7,7 +7,9 @@ function GetTitle() {
 		case '':
 			$title = "EGOR";
 			break;
-		
+		case 'works':
+			$title = "Работы";
+			break;
 		default:
 			$title = "EGOR";
 			break;
@@ -17,9 +19,6 @@ function GetTitle() {
 }
 //example
 
-
-
-
 function contentIndex() {
 	echo '
 	<h1>Колесников Егор</h1>
@@ -27,12 +26,13 @@ function contentIndex() {
 	<div class="hero"></div>
 	';
 }
-
-
-
+function contentWork() {
+	echo '
+	<div class="card design"></div>
+	<div class="card imposition"></div>	
+	';
+}
 ?>
-
-
 
 
 
@@ -54,22 +54,30 @@ function contentIndex() {
 </head>
 <body>
 	<div class="nav">
-		<a class="logo" href="">
+		<a class="logo" href="/">
 			<img src="img/logo-white.svg">
 		</a>
-		<a class="right" href="">РАБОТЫ</a>
+		<a class="right" href="works">РАБОТЫ</a>
 	</div>
-	<div class="background"></div>
+	<?php 
+		if ($URL == '' | $URL == 'works' ) {
+			echo '
+			<div class="background"></div> ';
+		}
+	?>
 	<div class="main">
 		<?php 
+			if ($URL == '') 
 			contentIndex();
+			elseif ($URL == "works")
+			contentWork();
 		 ?>
 	</div>
 	<div class="footer">
 		<div class="social">
-			<a href="" class="footer-style instagram"></a>
-			<a href="" class="footer-style vk"></a>
-			<a href="" class="footer-style github"></a>
+			<a href="https://www.instagram.com/ascuns_05/" class="footer-style instagram"></a>
+			<a href="https://vk.com/id339385941" class="footer-style vk"></a>
+			<a href="https://github.com/ascuns05/ascuns" class="footer-style github"></a>
 			<a href="" class="footer-style love"></a>
 			<a href="" class="footer-style login"></a>
 		</div>

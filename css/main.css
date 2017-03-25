@@ -29,9 +29,11 @@ a {
 	text-decoration: none;
 }
 /*main settings*/
+/*INDEX*/
 .main {
 	background: #fff;
 	height: auto;
+	display: block;
 }
 .hero {
 	background-image: url(../img/hero.svg);
@@ -40,4 +42,12 @@ a {
 	background-position-x: right;
     background-position-y: bottom;
 	height: 400px;
+}
+/*WORKS*/
+.card {
+	float: left;
+	background: yellow;
+	margin: 20px;
+	width: calc(50% - 40px);
+	height: 500px;
 }
