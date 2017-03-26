@@ -28,8 +28,17 @@ function contentIndex() {
 }
 function contentWork() {
 	echo '
-	<div class="card design"></div>
-	<div class="card imposition"></div>	
+	<div class="card design">
+		<div class="about">
+			<a class="button">Подробнее</a>
+		</div>
+	</div>
+
+	<div class="card imposition">
+		<div class="about">
+			<a class="button" href="">Подробнее</a>
+		</div>	
+	</div>	
 	';
 }
 ?>
