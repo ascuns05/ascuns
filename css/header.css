@@ -1,132 +1,16 @@
-/*standart control*/
-body {
-	margin: 0;
-}
-::-moz-selection {
-	background:#ff7676;
-	color:#fff;
-}
-::selection{
-	background:#ff7676;
-	color:#fff;
-}
-
-
-/*loading*/
-.loading {
-	z-index: 99;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background: #1da1f2;
-}
-/*navbar*/
+/*navigation bar*/
 .nav {
-	z-index: 1;
-	display: flex;
-	align-items: center;
-	position: fixed;
-	top: 0;
-	height: 50px;
-	background: rgba(0,0,0,0.8);
+	height: 80px;
+	background: #333;
 	width: 100%;
-	-webkit-backdrop-filter: blur(10px);
-	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.07), inset 0 1px 0 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-.menuitem {
-	margin-top: 30vh;
-}
-.menubar {
-	position: absolute;
-	right: 100px;
-	display: flex;
-}
-.menubar a {
-	color: #fff;
-	font-family: Open-Sans;
-	font-size: 16px;
-	padding: 0 20px;
-}
-@media only screen and (max-width: 768px) {
-	.menubar {
-		display: none;
-	}
-}
-
-.menubutton {
-	cursor: pointer;
-	padding: 7px;
-	margin: 12px;
-	float: right;
-	background: none;
-	height: 10px;
-	width: 18px;
-	display: inline-block;
-	position: absolute;
-	top: 0;
-	right: 0;
-}
-.menubutton:focus {
-	outline: none;
-	background: none;
-}
-@media only screen and (min-width: 769px) {
-	.menubutton {
-		display: none;
-	}
-}
-.lineone, .linetwo {
-	height: 1px;
-	background: #fff;
-	width: 100%;
-	transition: 0.1s;
-}
-
-.linetwo {
-	margin-top: 9px;
-}
-
-/*logo*/
-.logo {
-	display: inline-block;
-	margin-top: 4px;
 }
 .logo img {
-	height: 46px;
-	margin: 10px; 
+	margin: 17px 17px 0;
 }
-/*menu*/
-
-
-.menu {
-	text-align: center;
-	transition: 0.6s;
-	position: fixed;
-	z-index: 1;
-	margin-top: -200vh;
-	height: 100vh;
-	width: 100%;
-	background: rgba(0,0,0,0.9);
-	-webkit-backdrop-filter: blur(20px);
-}
-
-/*fonts settings*/
-a {
-	text-decoration: none;
-}
-.menuitem a {
-	font-family: Raleway;
-	font-weight: 900;
-	text-align: center;
-	font-size: 35px;
+.nav .right {
+	font-family: Open Sans;
+	margin: 30px 50px 0 0;
 	color: #fff;
-	padding-bottom: 90px;
-    cursor: default;
-}
-@media only screen and (max-width: 330px) {
-	.menu h2 {
-		padding-top: 18px; 
-	}
+	font-weight: 800;
+	font-size: 15px;
 }

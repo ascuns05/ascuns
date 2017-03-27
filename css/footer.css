@@ -1,73 +1,48 @@
 /*footer*/
 .footer {
-	margin-top: 0px;
-	height: 150px;
-	display: inline-block;
+	background: #333;
+	height: 130px;
 	width: 100%;
-	background: #f2f2f2;
-	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.07), inset 0 1px 0 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-
+	display: inline-block;
+}
+.social {
+	width: 100%;
+	text-align: center;
+	padding-top: 35px;
 }
 .footer-style {
 	font-family: Awesome;
 	text-decoration: none;
-	font-size: 21px;
-	color: #fff;
-	line-height: 36px;
-	text-align: center;
-	width: 36px;
-	display: inline-block;
-	margin: 10px;
-	border-radius: 50px;
-	border: 1px solid rgba(0, 0, 0, 0.15);
-	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.07), inset 0 1px 0 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    font-size: 21px;
+    color: #333;
+    line-height: 36px;
+    text-align: center;
+    width: 36px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 50px;
+    background: #fff;
 }
-@media only screen and (max-width: 320px) {
-	.footer-style {
-		margin: 4px;
+@media only screen and (max-width: 350px) {
+.footer-style {
+		margin: 10px 5px 0;  
 	}
 }
 
-/*social icons*/
-.social {
-	text-align: center;
-	padding-top: 50px;
-}
-.twitter {
-	background: #1da1f2;
-}
-.twitter:before {
-    content: "\f099";
-}
-.instagram {
-	font-size: 24px;
-    border-color: rgba(181, 70, 70, 0.7);
-    background: radial-gradient( circle farthest-corner at 32% 106%, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82% ), linear-gradient( 135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58% );
-}
+
+
 .instagram:before {
     content: "\f16d";
 }
-.vk {
-	background: #2a5885;
+.github:before {
+    content: "\f09b";
 }
 .vk:before {
-	content: "\f189";
-}
-.github {
-	background: #333;
-}
-.github:before {
-	content: "\f09b";
-}
-.love {
-	background: #ec3939;
+    content: "\f189";
 }
 .love:before {
-	content: "\f004";
-}
-.login {
-	background: #666;
+    content: "\f004";
 }
 .login:before {
-	content: "\f126"
+    content: "\f126";
 }
