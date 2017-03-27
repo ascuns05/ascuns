@@ -30,7 +30,7 @@ function contentWork() {
 	echo '
 	<div class="card design">
 		<div class="about">
-			<a class="button">Подробнее</a>
+			<a class="button" href="">Подробнее</a>
 		</div>
 	</div>
 

@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="376.09245"
-     inkscape:cy="275.59941"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="211.95607"
+     inkscape:cy="192.62969"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -49,10 +49,10 @@
      inkscape:snap-page="true"
      inkscape:snap-grids="true"
      inkscape:snap-global="true"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
+     inkscape:window-width="1440"
+     inkscape:window-height="867"
      inkscape:window-x="0"
-     inkscape:window-y="30"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata18631">
@@ -62,7 +62,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -118,7 +118,7 @@
        id="path19721"
        inkscape:connector-curvature="0" />
     <circle
-       style="opacity:1;fill:#ff8080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99900001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#ff0000;fill-opacity:0.39215687;fill-rule:nonzero;stroke:none;stroke-width:0.99900001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path19723"
        cx="33.571423"
        cy="476.10074"
@@ -128,9 +128,9 @@
        cy="476.10074"
        cx="57.571426"
        id="circle19725"
-       style="opacity:1;fill:#80ff80;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99900001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:#008000;fill-opacity:0.39215687;fill-rule:nonzero;stroke:none;stroke-width:0.99900001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <circle
-       style="opacity:1;fill:#e5ff80;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99900001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#ffff00;fill-opacity:0.39215687;fill-rule:nonzero;stroke:none;stroke-width:0.99900001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="circle19727"
        cx="81.571426"
        cy="476.10074"
@@ -891,17 +891,21 @@
        y="468.87256"
        rx="4"
        ry="4" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:0.94117647;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="215.7722"
-       y="669.39606"
-       id="text19859"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan19861"
-         x="215.7722"
-         y="669.39606"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:80px;font-family:'Museo Sans Cyrl';-inkscape-font-specification:'Museo Sans Cyrl Bold';fill:#cccccc;fill-opacity:0.94117647;">DIV</tspan></text>
+    <g
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:0.94117647;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text19859">
+      <path
+         d="m 221.7722,669.39606 20.32,0 c 18,0 29.52,-10.72 29.52,-28.72 0,-18 -11.52,-28.48 -29.52,-28.48 l -20.32,0 0,57.2 z m 14,-12 0,-33.2 5.76,0 c 9.44,0 15.6,5.6 15.6,16.48 0,10.96 -5.92,16.72 -15.6,16.72 l -5.76,0 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:80px;font-family:'Museo Sans Cyrl';-inkscape-font-specification:'Museo Sans Cyrl Bold';fill:#cccccc;fill-opacity:0.94117647"
+         id="path7216" />
+      <path
+         d="m 280.67845,669.39606 14,0 0,-57.2 -14,0 0,57.2 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:80px;font-family:'Museo Sans Cyrl';-inkscape-font-specification:'Museo Sans Cyrl Bold';fill:#cccccc;fill-opacity:0.94117647"
+         id="path7218" />
+      <path
+         d="m 320.37595,669.39606 14.56,0 20.16,-57.2 -14.96,0 -10.24,32.56 c -1.12,3.6 -2.16,9.2 -2.16,9.2 l -0.16,0 c 0,0 -1.04,-5.6 -2.16,-9.2 l -10.08,-32.56 -15.2,0 20.24,57.2 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:80px;font-family:'Museo Sans Cyrl';-inkscape-font-specification:'Museo Sans Cyrl Bold';fill:#cccccc;fill-opacity:0.94117647"
+         id="path7220" />
+    </g>
   </g>
 </svg>
