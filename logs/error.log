@@ -1,0 +1,28 @@
+[Mon Mar 27 16:29:50.517733 2017] [:error] [pid 4184] [client 127.0.0.1:55106] PHP Notice:  Use of undefined constant EGOR - assumed 'EGOR' in /home/ascuns/projects/index.php on line 4
+[Mon Mar 27 16:29:50.518175 2017] [:error] [pid 4184] [client 127.0.0.1:55106] PHP Notice:  Undefined variable: URL in /home/ascuns/projects/index.php on line 7
+[Mon Mar 27 16:29:50.948873 2017] [:error] [pid 4185] [client 127.0.0.1:55110] PHP Notice:  Use of undefined constant EGOR - assumed 'EGOR' in /home/ascuns/projects/index.php on line 4, referer: http://ascuns.site/
+[Mon Mar 27 16:29:50.948912 2017] [:error] [pid 4185] [client 127.0.0.1:55110] PHP Notice:  Undefined variable: URL in /home/ascuns/projects/index.php on line 7, referer: http://ascuns.site/
+[Mon Mar 27 16:29:59.987299 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Use of undefined constant EGOR - assumed 'EGOR' in /home/ascuns/projects/liteFunction.php on line 4
+[Mon Mar 27 16:29:59.987358 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Undefined variable: URL in /home/ascuns/projects/liteFunction.php on line 7
+[Mon Mar 27 16:30:00.242802 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Use of undefined constant EGOR - assumed 'EGOR' in /home/ascuns/projects/liteFunction.php on line 4, referer: http://ascuns.site/
+[Mon Mar 27 16:30:00.242875 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Undefined variable: URL in /home/ascuns/projects/liteFunction.php on line 7, referer: http://ascuns.site/
+[Mon Mar 27 16:30:00.740198 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Use of undefined constant EGOR - assumed 'EGOR' in /home/ascuns/projects/liteFunction.php on line 4
+[Mon Mar 27 16:30:00.740218 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Undefined variable: URL in /home/ascuns/projects/liteFunction.php on line 7
+[Mon Mar 27 16:30:00.883778 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Use of undefined constant EGOR - assumed 'EGOR' in /home/ascuns/projects/liteFunction.php on line 4, referer: http://ascuns.site/
+[Mon Mar 27 16:30:00.883824 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Undefined variable: URL in /home/ascuns/projects/liteFunction.php on line 7, referer: http://ascuns.site/
+[Mon Mar 27 16:30:01.005270 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Use of undefined constant EGOR - assumed 'EGOR' in /home/ascuns/projects/liteFunction.php on line 4
+[Mon Mar 27 16:30:01.005301 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Undefined variable: URL in /home/ascuns/projects/liteFunction.php on line 7
+[Mon Mar 27 16:30:01.104166 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Use of undefined constant EGOR - assumed 'EGOR' in /home/ascuns/projects/liteFunction.php on line 4, referer: http://ascuns.site/
+[Mon Mar 27 16:30:01.104217 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Undefined variable: URL in /home/ascuns/projects/liteFunction.php on line 7, referer: http://ascuns.site/
+[Mon Mar 27 16:30:01.176397 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Use of undefined constant EGOR - assumed 'EGOR' in /home/ascuns/projects/liteFunction.php on line 4
+[Mon Mar 27 16:30:01.176432 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Undefined variable: URL in /home/ascuns/projects/liteFunction.php on line 7
+[Mon Mar 27 16:30:01.261265 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Use of undefined constant EGOR - assumed 'EGOR' in /home/ascuns/projects/liteFunction.php on line 4, referer: http://ascuns.site/
+[Mon Mar 27 16:30:01.261316 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Undefined variable: URL in /home/ascuns/projects/liteFunction.php on line 7, referer: http://ascuns.site/
+[Mon Mar 27 16:30:01.338168 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Use of undefined constant EGOR - assumed 'EGOR' in /home/ascuns/projects/liteFunction.php on line 4
+[Mon Mar 27 16:30:01.338197 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Undefined variable: URL in /home/ascuns/projects/liteFunction.php on line 7
+[Mon Mar 27 16:30:01.455693 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Use of undefined constant EGOR - assumed 'EGOR' in /home/ascuns/projects/liteFunction.php on line 4, referer: http://ascuns.site/
+[Mon Mar 27 16:30:01.455719 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Undefined variable: URL in /home/ascuns/projects/liteFunction.php on line 7, referer: http://ascuns.site/
+[Mon Mar 27 16:30:01.500004 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Use of undefined constant EGOR - assumed 'EGOR' in /home/ascuns/projects/liteFunction.php on line 4
+[Mon Mar 27 16:30:01.500072 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Undefined variable: URL in /home/ascuns/projects/liteFunction.php on line 7
+[Mon Mar 27 16:30:01.610168 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Use of undefined constant EGOR - assumed 'EGOR' in /home/ascuns/projects/liteFunction.php on line 4, referer: http://ascuns.site/
+[Mon Mar 27 16:30:01.610197 2017] [:error] [pid 4187] [client 127.0.0.1:55114] PHP Notice:  Undefined variable: URL in /home/ascuns/projects/liteFunction.php on line 7, referer: http://ascuns.site/
